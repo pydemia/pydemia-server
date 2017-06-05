@@ -1,5 +1,7 @@
 # pydemia-server
 
+* [pydemia-client Setting]()
+
 ## SSL Certificate
 
 ### Install `openssl`
