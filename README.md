@@ -1,6 +1,6 @@
 # pydemia-server
 
-* [pydemia-client Setting]()
+* [pydemia-client Setting](https://github.com/pydemia/pydemia-server/blob/master/scripts/clientsetting.md)
 
 ## SSL Certificate
 
