@@ -2,7 +2,7 @@
 
 ## Change existing `username`
 
-1. Enter the `logon` screen (`log-off` | `reboot`)
+1. Enter the `_logon_` screen (`log-off` or `reboot`)
 2. Enter the `tty` : `Ctrl` + `Alt` + `F1`
 3. login by root
 4. Change current setting
