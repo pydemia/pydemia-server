@@ -7,12 +7,13 @@
 3. __`log-in`__ by __`root`__
 4. Change current setting
 
-(Optional) __Re-mount__
+
 ```sh
-mount -o remount,rw /
+
 ```
 
 ```sh
+# (Optional - remount by root) : mount -o remount,rw /
 usermod -l <newname> -d /home/<newname> -m <oldname>
 groupmod -n <newgroup> <oldgroup>
 reboot
