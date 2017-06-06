@@ -22,7 +22,7 @@ Add a new console Setting:
 Start a new console:
 ![console start](https://github.com/pydemia/pydemia-server/blob/master/scripts/cmder%20bash_ubuntu_start.png?raw=true)
 
-## Syntax
+## Syntax Color
 
 ### Console
 
@@ -52,6 +52,30 @@ Light
 6(purple) : #AD7FA8
 7(cyan) : #34E2E2
 8(grey) : #EEEEEC
+
+```
+
+### Cobalt2
+
+```vim
+Background	#041927 #193549
+Side areas	#19364b #0d3a58 
+
+Current cell	#072539 #1f4662 #0d3a58
+Current line 	#0d3a58
+Occurrence 	#3b5364
+Matched parens 	#0088ff
+Unmatchedparens #e1efff
+Link 		#0088ff
+
+Normal text 	#ffffff
+Comment 	#0088ff
+String 		#3ad900
+Number 		#ff628c
+Keyword 	#ff9d00
+Builtin 	#edef7d
+Definition 	#ffc600
+Instance 	#ff80e1
 
 
 ```
