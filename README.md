@@ -66,3 +66,12 @@ Enter pass phrase for server.key.origin:
 ```sh
 openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
 ```
+
+
+### Clear up the old logs
+
+(+180 days)
+```sh
+sudo find /var/log/ -type f -mtime +180 -delete
+
+```
