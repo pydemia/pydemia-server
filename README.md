@@ -80,3 +80,30 @@ cd /etc/logrotate.d
 
 
 ```
+
+### apt Error `oracle-java7-installer`
+
+```sh
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+
+sudo apt-get install oracle-java7-installer
+```
+
+
+Download `jdk-7u80-linux-x64.tar.gz` from oracle website.
+
+```sh
+ls /var/cache/oracle-jdk7-installer/
+---------------------------------------------------------------
+jar.binfmt  javaws-wrapper.sh  jdk-7u80-linux-x64.tar.gz  wgetrc
+
+sudo cp ~/Downloads/jdk-7u55-linux-x64.tar.gz /var/cache/oracle-jdk7-installer/
+
+md5sum jdk-7u80-linux-x64.tar.gz
+---------------------------------------------------------------
+6152f8a7561acf795ca4701daa10a965 jdk-7u80-linux-x64.tar.gz
+
+sudo apt-get install oracle-java7-installer
+```
+
