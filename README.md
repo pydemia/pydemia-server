@@ -107,3 +107,34 @@ md5sum jdk-7u80-linux-x64.tar.gz
 sudo apt-get install oracle-java7-installer
 ```
 
+### 'Multitouch' in Ubuntu
+
+Install `touchegg`
+
+```sh
+sudo apt-get install touchegg
+```
+
+Add it on `startup application`
+```sh
+touchegg
+```
+
+Install `geis-tools`
+```sh
+sudo apt install geis-tools
+```
+
+Configuration
+```vim
+synclient TapButton2=0
+synclient ClickFinger2=0
+synclient TapButton3=0
+synclient ClickFinger3=0
+synclient HorizTwoFingerScroll=0
+synclient VertTwoFingerScroll=0
+touchegg &
+```
+
+
+
