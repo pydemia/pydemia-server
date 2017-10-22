@@ -126,6 +126,11 @@ sudo apt install geis-tools
 ```
 
 Configuration
+
+```sh
+vim .xprofile
+```
+
 ```vim
 synclient TapButton2=0
 synclient ClickFinger2=0
