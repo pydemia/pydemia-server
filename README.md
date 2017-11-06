@@ -107,7 +107,7 @@ md5sum jdk-7u80-linux-x64.tar.gz
 sudo apt-get install oracle-java7-installer
 ```
 
-### Jupyter
+## Jupyter
 
 [jupyter setting](https://github.com/pydemia/Jupyter/blob/master/README.md)
 
