@@ -13,6 +13,7 @@
   - `platformio-ide-terminal`  
   - `hydrogen`  
   - `hydrogen-launcher`  
+  - `linter-pyflakes`  
 
 * Remote Access
   - `remote-ftp`  
