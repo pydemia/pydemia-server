@@ -4,20 +4,32 @@
   - `uber-juno`  
   - `julia-ide`  
 
-* Productivity
+* Interfaces
   - `symbols-tree-view`  
+  - `minimap`  
+  - `file-icons`  
   - `atom-clock`  
+
+* Productivity
+  - `python-tools`
+  - `linter-pyflakes`  
+  - `linter-flake8`  
+  - `linter-jedi`  
+
   - `github`  
 
 * Interpreter
   - `platformio-ide-terminal`  
   - `hydrogen`  
   - `hydrogen-launcher`  
-  - `linter-pyflakes`  
+  - `ink`  
 
 * Remote Access
   - `remote-ftp`  
   - `remote-edit`  
+
+* DataBase
+  - `data-atom`  
 
 * Themes
   - `cobalt2-syntax`  
