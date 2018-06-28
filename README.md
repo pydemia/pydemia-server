@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-* [Client Setting](https://github.com/pydemia/pydemia-server/blob/master/scripts/clientsetting.md)
+* [Client Setting](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/clientsetting.md)
 
 
-* Server Setting
+* Server Setting(https://github.com/pydemia/pydemia-server/blob/master/scripts/server/serversetting.md)
   - Default Setting
     - SSL
     - Firewall
