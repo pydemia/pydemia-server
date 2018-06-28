@@ -30,3 +30,41 @@ Add a new console Setting:
 Start a new console:
 ![console start](https://github.com/pydemia/pydemia-server/blob/master/scripts/cmder%20bash_ubuntu_start.png?raw=true)
 
+## Ubuntu
+
+### 'Multitouch' in Ubuntu
+
+Install `touchegg`
+
+```sh
+sudo apt-get install touchegg
+```
+
+Add it on `startup application`
+```sh
+touchegg
+```
+
+Install `geis-tools`
+```sh
+sudo apt install geis-tools
+```
+
+Configuration
+
+```sh
+vim .xprofile
+```
+
+```vim
+synclient TapButton2=0
+synclient ClickFinger2=0
+synclient TapButton3=0
+synclient ClickFinger3=0
+synclient HorizTwoFingerScroll=0
+synclient VertTwoFingerScroll=0
+touchegg &
+```
+
+
+
