@@ -85,3 +85,15 @@ hydrogen-launcher          linter-gcc                 platformio-ide-terminal
   - [`.ftpconfig`](.ftpconfig)
 
 ### Remote jupyter kernel
+
+`Hydrogen` - Setting - Kernel Gateways
+
+```sh
+[{"name": "pydemia-server",
+  "options": {"baseUrl": "http://<jupyter-url>:<jupyter-port>",
+              "wsUrl": "ws://<jupyter-url>:<websocket-port:jupyter-port>",
+              "token": "sha1:aaad7f464ecc:c45b4"
+             }
+ }
+]
+```
