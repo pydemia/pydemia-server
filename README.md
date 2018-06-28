@@ -8,6 +8,7 @@
   - vim(https://github.com/pydemia/pydemia-server/blob/master/scripts/client/vim.md)
     * syntax
   - Atom(https://github.com/pydemia/pydemia-server/blob/master/scripts/client/atom.md)
+    * package list
     * Customization
     * Dev on Local
       - build
