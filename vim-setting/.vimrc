@@ -30,3 +30,4 @@ imap <F4> <ESC> "+gPi
 " Show status bar
 set laststatus=2
 set statusline=\ %<%l:%v\ [%P]%=%a\ %h%m%r\ %F\
+
