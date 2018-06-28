@@ -18,6 +18,9 @@
       - Remote `jupyter` kernel
   - [Spyder](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/spyder.md)
     * Customization
+  - [Pycharm](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/pycharm.md)
+    * Customization
+
 
 
 * [Server Setting](https://github.com/pydemia/pydemia-server/blob/master/scripts/server/serversetting.md)
