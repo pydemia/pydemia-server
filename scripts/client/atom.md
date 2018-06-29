@@ -12,7 +12,7 @@ busy-signal                julia-ide                  minimap                   
 cobalt2-syntax             language-ini               minimap-find-and-replace   symbols-tree-view  
 file-icons                 language-julia             minimap-highlight-selected tool-bar  
 highlight-selected         latex-completions          #platformio-ide            uber-juno  
-hydrogen-auth              linter                     platformio-ide-debugger  
+hydrogen-auth              linter                     platformio-ide-debugger    project-manager
 hydrogen-launcher          linter-gcc                 platformio-ide-terminal  
 ```
 
