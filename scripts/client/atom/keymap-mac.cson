@@ -1,0 +1,83 @@
+# Your keymap
+#
+# Atom keymaps work similarly to style sheets. Just as style sheets use
+# selectors to apply styles to elements, Atom keymaps use selectors to associate
+# keystrokes with events in specific contexts. Unlike style sheets however,
+# each selector can only be declared once.
+#
+# You can create a new keybinding in this file by typing "key" and then hitting
+# tab.
+#
+# Here's an example taken from Atom's built-in keymap:
+#
+# 'atom-text-editor':
+#   'enter': 'editor:newline'
+#
+# 'atom-workspace':
+#   'ctrl-shift-p': 'core:move-up'
+#   'ctrl-p': 'core:move-down'
+#
+# You can find more information about keymaps in these guides:
+# * http://flight-manual.atom.io/using-atom/sections/basic-customization/#_customizing_keybindings
+# * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
+#
+# If you're having trouble with your keybindings not working, try the
+# Keybinding Resolver: `Cmd+.` on macOS and `Ctrl+.` on other platforms. See the
+# Debugging Guide for more information:
+# * http://flight-manual.atom.io/hacking-atom/sections/debugging/#check-the-keybindings
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+
+# Python ---------------------------------
+# Launch Hydrogen for PlatformIO
+'.platform-darwin atom-text-editor:not([mini])':
+  # First-run
+  'cmd-esc': 'hydrogen:run'
+  # Run Code Interactive
+  'ctrl-f5': 'hydrogen:run-and-move-down'
+  # Connect to Remote Kernel
+  'alt-esc': 'hydrogen:connect-to-remote-kernel'
+
+# Initiate Jupyter Terminal in Atom
+'.platform-darwin atom-text-editor':
+  # Launch Terminal
+  'ctrl-cmd-f5': 'hydrogen-launcher:launch-jupyter-console-in-platformio-terminal'
+  # Launch Jupyter Console
+  'ctrl-alt-f5': 'hydrogen-launcher:launch-jupyter-console'
+
+'.platform-darwin atom-workspace':
+  # New Terminal
+  'ctrl-cmd-t': 'platformio-ide-terminal:new'
+  # Focus on Terminal
+  'cmd-`': 'platformio-ide-terminal:focus'
+  # Clear Outputs
+  'ctrl-backspace': 'hydrogen:clear-results'
+  # Send Script to Terminal
+  'ctrl-shift-f5': 'platformio-ide-terminal:insert-selected-text'
+  #'ctrl-f5': 'platformio-ide-terminal:insert-selected-text'
+  'ctrl-r': 'platformio-ide-terminal:insert-text'
+  # Move to the Previous
+  'ctrl-cmd-j': 'platformio-ide-terminal:prev'
+  # Move to the Next
+  'ctrl-cmd-k': 'platformio-ide-terminal:next'
+  # Close a Terminal
+  'ctrl-cmd-;': 'platformio-ide-terminal:close'
+  # Toggle Inspector Dock
+  'ctrl-d': 'hydrogen:toggle-inspector'
+
+#'.platform-darwin atom-text-editor':
+#  'ctrl-shift-F5': 'hydrogen:run'
+
+# PloatformIO-Debugger
+'atom-workspace':
+  'f5': 'platformio-ide-debugger:continue'
+  'shift-f5': 'platformio-ide-debugger:interrupt'
+  'f10': 'platformio-ide-debugger:next'
+  'f11': 'platformio-ide-debugger:step'
+  'shift-f11': 'platformio-ide-debugger:finish'
+'atom-text-editor':
+  'f9': 'platformio-ide-debugger:toggle-breakpoint'
