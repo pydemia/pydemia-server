@@ -30,3 +30,4 @@
     - Java
     - [Jupyter](https://github.com/pydemia/Jupyter/blob/master/README.md)
     - shellinabox
+    - Monitoring : [`glances`](scripts/server/glances.md)
