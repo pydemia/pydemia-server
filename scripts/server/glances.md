@@ -19,6 +19,11 @@ glances
 glances -w
 ```
 
+## With `GPU`
+
+```sh
+pip install nvidia-ml-py3
+```
 
 ## Add a service
 
