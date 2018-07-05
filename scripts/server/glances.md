@@ -51,3 +51,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable glances.service
 sudo service glances start
 ```
+
+
+View
+
+`http://<server-ip>:61208/`
