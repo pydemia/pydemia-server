@@ -34,7 +34,7 @@ sudo vim glances.service
 
 ```vi
 [Unit]
-Desciption=Monitoring Web Server
+Description=Monitoring Web Server
 
 [Service]
 Type=simple
