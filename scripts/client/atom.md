@@ -14,12 +14,14 @@ file-icons                 language-julia             minimap-highlight-selected
 highlight-selected         latex-completions          #platformio-ide            uber-juno  
 hydrogen-auth              linter                     platformio-ide-debugger    project-manager
 hydrogen-launcher          linter-gcc                 platformio-ide-terminal    language-r
+symbols-tree-view-fix
 ```
 
 ## Customization
 
 ### Interfaces
 `symbols-tree-view` : A symbols view like taglist  
+`symbols-tree-view-fix` : a bugfix
 `file-icons` : Assign file extension icons and colors  
 `minimap` : A preview of the full source code  
   - `minimap-find-and-replace`  
@@ -49,6 +51,10 @@ hydrogen-launcher          linter-gcc                 platformio-ide-terminal   
   - `ctrl+alt+u`(Show usages and edit all)  
   - `ctrl+alt+g`(Goto definition)  
   - `ctrl+alt+e`(Select str contents)  
+
+### For `R`
+
+`language-r`
 
 ### For `julia`
 
