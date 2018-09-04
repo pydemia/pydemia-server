@@ -38,3 +38,43 @@ alias  SSH_GCLOUD_GPU='gcloud compute --project "pydemia-cloud" ssh --zone "us-c
 ```sh
 sudo gpasswd -d choby google-sudoers
 ```
+
+
+### `Anaconda`
+
+```sh
+
+su root
+cd
+mkdir apps
+mkdir Downloads
+cd Downloads
+wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+bash ./Anaconda3-5.2.0-Linux-x86_64.sh
+```
+
+```sh
+/usr/share/anaconda3
+
+```
+
+```sh
+cd /usr/share
+chmod -R 777 ./anaconda3 # chmod -R a=r,u+w,a+X ./anaconda3
+
+```
+
+```sh
+vim /etc/bash.bashrc
+```
+
+```vi
+# Environment Variables Setting ------------------------
+
+if [ $USER = "root" ]; then
+	export PATH="$PATH"
+else
+	export PATH="/usr/share/anaconda3/bin:$PATH"
+fi
+
+```
