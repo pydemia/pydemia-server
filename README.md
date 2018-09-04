@@ -25,6 +25,7 @@
 
 * [Server Setting](https://github.com/pydemia/pydemia-server/blob/master/scripts/server/serversetting.md)
   - Default Setting
+    - SSH KEY
     - SSL
     - Firewall
     - Java
