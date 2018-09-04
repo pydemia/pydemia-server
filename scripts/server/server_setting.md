@@ -33,3 +33,8 @@ In `.bashrc`:
 alias  SSH_GCLOUD_GPU='gcloud compute --project "pydemia-cloud" ssh --zone "us-central1-c" "pydemia-gpu"'
 
 ```
+
+
+```sh
+sudo gpasswd -d choby google-sudoers
+```
