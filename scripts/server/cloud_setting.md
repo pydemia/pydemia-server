@@ -36,6 +36,7 @@ alias  SSH_GCLOUD_GPU='gcloud compute --project "pydemia-cloud" ssh --zone "us-c
 
 
 ```sh
+sudo gpasswd -a choby google-sudoers
 sudo gpasswd -d choby google-sudoers
 ```
 
