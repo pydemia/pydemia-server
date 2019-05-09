@@ -10,12 +10,25 @@
   - [Atom](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/atom.md)
     * package list
     * Customization
-    * Dev on Local
-      - build
-      - Local `jupyter` kernel
-    * Remote Connection
-      - edit
-      - Remote `jupyter` kernel
+    * Dev. Env.
+      - Python
+        * Local
+          - build
+          - Local `jupyter` kernel
+        * Remote Connection
+          - edit
+          - Remote `jupyter` kernel
+  - [VS Code](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/vscode.md)
+    * package list
+    * Customization
+    * Dev. Env.
+      - Python
+        * Local
+          - build
+          - Local `jupyter` kernel
+        * Remote Connection
+          - edit
+          - Remote `jupyter` kernel
   - [Spyder](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/spyder.md)
     * Customization
   - [Pycharm](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/pycharm.md)
