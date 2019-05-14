@@ -47,3 +47,16 @@ Table of Contents
 	-	[Jupyter](https://github.com/pydemia/Jupyter/blob/master/README.md)
 	-	shellinabox
 	-	Monitoring : [`glances`](scripts/server/glances.md)
+
+
+-	[Cloud Env](https://github.com/pydemia/pydemia-server/blob/master/scripts/server/cloud/README.md)
+
+	-	Default Setting
+	-	SSH KEY
+	-	SSL
+	-	Firewall
+	-	Java
+	-	[Jupyter](https://github.com/pydemia/Jupyter/blob/master/README.md)
+	-	shellinabox
+	-	Monitoring : [`glances`](scripts/server/glances.md)
+
