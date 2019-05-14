@@ -122,6 +122,11 @@ Publishing pydemia.cobalt2-pydemia@8.0.0...
 Your extension will live at https://marketplace.visualstudio.com/items?itemName=pydemia.cobalt2-pydemia (might take a few seconds for it to show up).
 ```
 
+### Remote Extension
+
+```sh
+.vscode-remote/data/Machine/settings.json
+```
 
 "terminal.integrated.shell.linux": "/usr/bin/zsh",
 "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
