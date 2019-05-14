@@ -121,3 +121,7 @@ Publishing pydemia.cobalt2-pydemia@8.0.0...
  DONE  Published pydemia.cobalt2-pydemia@8.0.0
 Your extension will live at https://marketplace.visualstudio.com/items?itemName=pydemia.cobalt2-pydemia (might take a few seconds for it to show up).
 ```
+
+
+"terminal.integrated.shell.linux": "/usr/bin/zsh",
+"terminal.integrated.shell.osx": "/usr/local/bin/zsh",
