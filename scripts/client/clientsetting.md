@@ -109,3 +109,9 @@ reboot
 Done.
 
 
+### Mac OS X
+
+reload DNS
+```sh
+sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache
+```
