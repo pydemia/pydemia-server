@@ -18,3 +18,14 @@ curl -O https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py --user
 pip3 install awscli --upgrade --user
 ```
+
+
+## Configuration
+
+```sh
+aws configure
+AWS Access Key ID [None]: --
+AWS Secret Access Key [None]: --
+Default region name [None]: us-east-2
+Default output format [None]:
+```
