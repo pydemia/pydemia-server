@@ -2,6 +2,7 @@
 
 ```sh
 ssh -i ~/.ssh/yjkim-aws-default-key.pem hadoop@ec2-52-15-181-61.us-east-2.compute.amazonaws.com
+sudo aws s3 cp s3://yjkim-repository/spark/jars /usr/lib/spark/jars/ --recursive --exclude "*" --include "*.jar"
 
 ```
 
