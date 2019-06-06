@@ -1,5 +1,9 @@
 # EMR-spark
 
+```sh
+ssh -i ~/.ssh/yjkim-aws-default-key.pem hadoop@ec2-52-15-181-61.us-east-2.compute.amazonaws.com
+
+```
 
 ```sh
 aws emr create-cluster \
@@ -10,6 +14,14 @@ aws emr create-cluster \
   --release-label emr-5.23.0 \
   --log-uri 's3n://aws-logs-946648250772-us-east-2/elasticmapreduce/' \
   --steps '[
+    {
+      "Type":"CUSTOM_JAR",
+      "ActionOnFailure":"CANCEL_AND_WAIT",
+      "Jar":"s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar",
+      "Properties":"",
+      "Name":"xgboost4j-installation"
+      'Args': ['sudo', 'bash', '/home/hadoop/reqd_files_setup.sh', self.script_bucket_name]
+    },
     {
       "Type":"CUSTOM_JAR",
       "ActionOnFailure":"CONTINUE",
