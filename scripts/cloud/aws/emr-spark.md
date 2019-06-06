@@ -10,17 +10,17 @@ aws emr create-cluster \
  --log-uri 's3n://aws-logs-946648250772-us-east-2/elasticmapreduce/' \
  --steps '[{"Type":"CUSTOM_JAR","ActionOnFailure":"CONTINUE","Jar":"s3://yjkim-repository/spark/xgboost4j-0.82.jar","Properties":"","Name":"xgboost4j-0.82"},{"Type":"CUSTOM_JAR","ActionOnFailure":"CONTINUE","Jar":"s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar","Properties":"","Name":"xgboost4j-spark-0.82"},{"Type":"CUSTOM_JAR","ActionOnFailure":"CONTINUE","Jar":"s3://yjkim-repository/spark/xgboost4j-flink-0.82.jar","Properties":"","Name":"xgboost4j-flink-0.82"}]' \
  --instance-groups '[{"InstanceCount":1,"EbsConfiguration":{"EbsBlockDeviceConfigs":[{"VolumeSpecification":{"SizeInGB":32,"VolumeType":"gp2"},"VolumesPerInstance":1}]},"InstanceGroupType":"MASTER","InstanceType":"m4.large","Name":"Master - 1"},{"InstanceCount":8,"EbsConfiguration":{"EbsBlockDeviceConfigs":[{"VolumeSpecification":{"SizeInGB":32,"VolumeType":"gp2"},"VolumesPerInstance":1}]},"InstanceGroupType":"CORE","InstanceType":"m4.large","Name":"Core - 2"}]' \
-  --configurations '[{"Classification":"spark-hive-site","Properties":{"hive.metastore.client.factory.class":"com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory"}}]' \
-  --auto-scaling-role EMR_AutoScaling_DefaultRole \
-  --ebs-root-volume-size 10 \
-  --service-role EMR_DefaultRole \
-  --enable-debugging \
-  --name 'yjkim-xgboost-spark' \
-  --scale-down-behavior TERMINATE_AT_TASK_COMPLETION \
-  --region us-east-2 \
-  --libjars s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
-  --jars s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
-  --driver-class-path s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
+ --configurations '[{"Classification":"spark-hive-site","Properties":{"hive.metastore.client.factory.class":"com.amazonaws.glue.catalog.metastore.AWSGlueDataCatalogHiveClientFactory"}}]' \
+ --auto-scaling-role EMR_AutoScaling_DefaultRole \
+ --ebs-root-volume-size 10 \
+ --service-role EMR_DefaultRole \
+ --enable-debugging \
+ --name 'yjkim-xgboost-spark' \
+ --scale-down-behavior TERMINATE_AT_TASK_COMPLETION \
+ --region us-east-2 \
+ --libjars s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
+ --jars s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
+ --driver-class-path s3://yjkim-repository/spark/xgboost4j-spark-0.82.jar \
   
   --class org.springframework.boot.loader.JarLauncher
 
