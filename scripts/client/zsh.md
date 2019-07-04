@@ -25,6 +25,8 @@ rm -rf fonts
 
 ### Syntax Highlighting
 
+[!iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+
 ```sh
 cd ~/git
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
