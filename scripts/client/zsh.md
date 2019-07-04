@@ -1,0 +1,32 @@
+#ZSH
+
+## Installation
+
+
+## Customization
+
+### Oh-My-Zsh
+
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+
+### Fonts
+
+```sh
+cd ~/git
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+```
+
+### Syntax Highlighting
+
+```sh
+cd ~/git
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
