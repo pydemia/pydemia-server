@@ -1,4 +1,4 @@
-#ZSH
+# ZSH
 
 ## Installation
 
