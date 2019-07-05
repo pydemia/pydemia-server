@@ -84,3 +84,16 @@ or
   background-gradient-end: #7a8aa2;
 }
 ```
+
+#### Grub Theme
+
+```sh
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt update
+sudo apt install grub-customizer -y
+```
+
+```sh
+
+/boot/grub/themes
+```
