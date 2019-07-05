@@ -32,6 +32,11 @@ sudo apt update
 sudo apt install tillix
 ```
 
+* Change default terminal & shortcut
+```sh
+sudo update-alternatives --config x-terminal-emulator
+```
+
 It requires ``VTE Configuration`` if use with `bash` or `zsh`.
 
 [!Link](https://gnunn1.github.io/tilix-web/manual/vteconfig/)
