@@ -61,7 +61,7 @@ Preferences > Profiles > (Default) > Command > Run command as a login shell
 #### Login Color
 
 ```sh
-sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+sudo vim /usr/share/gnome-shell/theme/ubuntu.css
 ```
 
 ```css
