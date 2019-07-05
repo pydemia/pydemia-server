@@ -24,3 +24,19 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/
 sudo apt-get update
 sudo apt-get install arc-theme
 ```
+
+## 
+
+```sh
+sudo apt update
+sudo apt install tillix
+```
+
+It requires ``VTE Configuration`` if use with `bash` or `zsh`.
+
+[!Link](https://gnunn1.github.io/tilix-web/manual/vteconfig/)
+
+or 
+
+Preferences > Profiles > (Default) > Command > Run command as a login shell
+
