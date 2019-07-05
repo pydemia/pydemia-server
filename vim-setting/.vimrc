@@ -27,6 +27,7 @@ vmap <F3> "+y
 vmap <F4> "+gP
 imap <F4> <ESC> "+gPi
 map <F2> :NERDTreeToggle<CR>
+nmap <F8> :Tlist<CR>
 
 " Show status bar
 set laststatus=2
