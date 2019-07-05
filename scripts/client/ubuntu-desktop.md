@@ -105,3 +105,10 @@ sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1
 sudo apt-get install gnome-shell-extension-system-monitor
 
 ```
+
+#### Plank
+
+```sh
+sudo add-apt-repository ppa:ricotz/docky
+sudo apt-get update && sudo apt-get install plank
+```
