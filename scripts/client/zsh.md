@@ -2,6 +2,10 @@
 
 ## Installation
 
+```sh
+sudo apt install zsh
+chsh -s /usr/bin/zsh
+```
 
 ## Customization
 
@@ -25,7 +29,7 @@ rm -rf fonts
 
 ### Syntax Highlighting
 
-[!iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
+[iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 
 ```sh
 cd ~/git
