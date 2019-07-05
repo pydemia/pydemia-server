@@ -32,6 +32,16 @@ sudo apt update
 sudo apt install tillix
 ```
 
+* Setting
+  - Appearance
+    - Terminal title style: None
+  - Shortcuts
+    - Session
+      - Add terminal down: `Alt+D`
+      - Add terminal right: `Shift+Alt+D`
+    - Window
+      - Toggle fullscreen mode: `Shift+Alt+F`
+
 * Change default terminal & shortcut
 ```sh
 sudo update-alternatives --config x-terminal-emulator
