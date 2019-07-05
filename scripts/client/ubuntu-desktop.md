@@ -97,3 +97,11 @@ sudo apt install grub-customizer -y
 
 /boot/grub/themes
 ```
+
+#### System Indicator
+
+```sh
+sudo apt-get install gir1.2-gtop-2.0 gir1.2-networkmanager-1.0  gir1.2-clutter-1.0
+sudo apt-get install gnome-shell-extension-system-monitor
+
+```
