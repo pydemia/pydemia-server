@@ -55,3 +55,32 @@ or
 
 Preferences > Profiles > (Default) > Command > Run command as a login shell
 
+
+### Appearance
+
+#### Login Color
+
+```sh
+sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+```
+
+```css
+#lockDialogGroup {
+background: #2c001e url(file:///[fileLocation/filename.png]);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+```
+
+or
+
+```css
+#lockDialogGroup {
+  background: none;
+  background-color: none;
+  background-gradient-direction: vertical;
+  background-gradient-start: #7a8aa2;
+  background-gradient-end: #7a8aa2;
+}
+```
