@@ -7,7 +7,7 @@ mkdir -p ~/.vim/bundle
 ```
 
 ```sh
-wget https://github.com/GertjanReynaert/cobalt2-vim-theme/blob/master/colors/cobalt2.vim ~/.vim/colors/cobalt2.vim
+wget https://raw.githubusercontent.com/GertjanReynaert/cobalt2-vim-theme/master/colors/cobalt2.vim ~/.vim/colors/cobalt2.vim
 
 ```
 
