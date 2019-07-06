@@ -133,3 +133,55 @@ sudo apt-get install conky-all
 ```sh
 git clone https://github.com/zagortenay333/conky-Vision
 ```
+
+#### Wine
+
+```sh
+sudo apt install wine-stable
+WINEARCH=win32 WINEPREFIX=~/.wine wine wineboot
+WINEARCH=win64 WINEPREFIX=~/.wine wine wineboot
+```
+
+* Install `winetricks` to avoid `dll error`
+```sh
+cd ~/Downloads
+sudo apt-get install cabextract
+wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+chmod 777 winetricks
+./winetricks --optout
+```
+
+```txt
+1. Select the default wineprefix 체크(Checked)
+2. Install a Windows DLL or component 체크(Checked)
+3. gdiplus, msxml6, riched30, wmp9, d3dx9_43 체크(Checked)
+```
+
+```sh
+cd ~/Downloads
+mv Nanum* ~/.wine/drive_c/windows/Fonts/
+gedit ~/.wine/system.reg
+```
+
+```diff
+-"MS Shell Dlg"="Tahoma"
+-"MS Shell Dlg 2"="Tahoma"
++"MS Shell Dlg"="Nanum Gothic"
++"MS Shell Dlg 2"="Nanum Gothic"
+```
+
+```sh
+cd ~/Downloads
+wget http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe
+wine-stable KakaoTalk_Setup.exe
+```
+
+```sh
+gedit ~/.local/share/applications/wine/Programs/KakaoTalk/KakaoTalk.desktop
+```
+
+```diff
+-Exec=env WINEPREFIX="/home/ubuntu/.wine" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/ubuntu/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/KakaoTalk/KakaoTalk.lnk
++Exec=env WINEPREFIX="/home/ubuntu/.wine" LANG="ko_KR.UTF-8" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/ubuntu/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/KakaoTalk/KakaoTalk.lnk
+```
+
