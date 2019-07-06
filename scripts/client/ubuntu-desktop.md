@@ -151,6 +151,8 @@ sudo apt-get install cabextract
 wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 chmod 777 ~/Downloads/winetricks
 ~/Downloads//winetricks --optout
+
+~/Downloads//winetricks gdiplus riched30 wmp9 msxml6 d3dx9_43
 ```
 
 ```txt
