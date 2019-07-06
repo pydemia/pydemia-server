@@ -138,6 +138,8 @@ git clone https://github.com/zagortenay333/conky-Vision
 
 ```sh
 sudo apt install wine-stable
+sudo apt upgrade wine-stable
+sudo apt-get install winbind
 WINEARCH=win32 WINEPREFIX=~/.wine wine wineboot
 WINEARCH=win64 WINEPREFIX=~/.wine wine wineboot
 ```
@@ -147,8 +149,8 @@ WINEARCH=win64 WINEPREFIX=~/.wine wine wineboot
 cd ~/Downloads
 sudo apt-get install cabextract
 wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod 777 winetricks
-./winetricks --optout
+chmod 777 ~/Downloads/winetricks
+~/Downloads//winetricks --optout
 ```
 
 ```txt
@@ -159,7 +161,9 @@ chmod 777 winetricks
 
 ```sh
 cd ~/Downloads
+
 mv Nanum* ~/.wine/drive_c/windows/Fonts/
+chmod 644 ~/.wine/drive_c/windows/Fonts//Nanum*
 gedit ~/.wine/system.reg
 ```
 
@@ -173,7 +177,7 @@ gedit ~/.wine/system.reg
 ```sh
 cd ~/Downloads
 wget http://app.pc.kakao.com/talk/win32/KakaoTalk_Setup.exe
-wine-stable KakaoTalk_Setup.exe
+wine-stable ~/Downloads/KakaoTalk_Setup.exe
 ```
 
 ```sh
