@@ -170,8 +170,8 @@ gedit ~/.wine/system.reg
 ```diff
 -"MS Shell Dlg"="Tahoma"
 -"MS Shell Dlg 2"="Tahoma"
-+"MS Shell Dlg"="Nanum Gothic"
-+"MS Shell Dlg 2"="Nanum Gothic"
++"MS Shell Dlg"="NanumGothic"
++"MS Shell Dlg 2"="NanumGothic"
 ```
 
 ```sh
