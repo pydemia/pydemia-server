@@ -129,3 +129,7 @@ sudo apt-get update
 sudo add-apt-repository ppa:mark-pcnetspec/conky-manager-pm9
 sudo apt-get install conky-all
 ```
+
+```sh
+git clone https://github.com/zagortenay333/conky-Vision
+```
