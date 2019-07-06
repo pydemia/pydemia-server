@@ -112,3 +112,20 @@ sudo apt-get install gnome-shell-extension-system-monitor
 sudo add-apt-repository ppa:ricotz/docky
 sudo apt-get update && sudo apt-get install plank
 ```
+
+
+#### Conky
+
+```sh
+sudo apt-get install conky-all
+# sudo apt-add-repository -y ppa:teejee2008/ppa
+sudo apt-get update
+# sudo apt install gdebi -y
+# sudo apt install manpages-pl manpages-fr-extra
+# sudo apt install coreutils
+# wget https://launchpad.net/~teejee2008/+archive/ubuntu/ppa/+files/conky-manager_2.4~136~ubuntu16.04.1_amd64.deb
+# sudo gdebi conky-manager*.deb
+# sudo apt-get install conky-manager
+sudo add-apt-repository ppa:mark-pcnetspec/conky-manager-pm9
+sudo apt-get install conky-all
+```
