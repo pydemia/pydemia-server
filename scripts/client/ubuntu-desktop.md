@@ -194,3 +194,15 @@ gedit ~/.local/share/applications/wine/Programs/KakaoTalk/KakaoTalk.desktop
 ```sh
 sudo apt install gnome-shell-extension-top-icons-plus
 ```
+
+```sh
+gedit ~/.wine/user.reg 
+```
+
+```diff
+[Software\\Wine\\DllOverrides] 1539441719
+#time=1d46302e5bc8240
+-"msxml3"="native,builtin"
+-"riched20"="native,builtin"
+-"usp10"="native,builtin"
+```
