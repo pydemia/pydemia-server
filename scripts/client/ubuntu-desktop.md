@@ -189,3 +189,6 @@ gedit ~/.local/share/applications/wine/Programs/KakaoTalk/KakaoTalk.desktop
 +Exec=env WINEPREFIX="/home/<user>/.wine" LANG="ko_KR.UTF-8" wine-stable C:\\\\windows\\\\command\\\\start.exe /Unix /home/ubuntu/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/KakaoTalk/KakaoTalk.lnk
 ```
 
+```sh
+sudo apt install gnome-shell-extension-top-icons-plus
+```
