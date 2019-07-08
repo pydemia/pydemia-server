@@ -220,7 +220,7 @@ sudo gpasswd -a $USER input
 sudo apt install libinput-tools -y
 sudo apt install xdotool -y
 sudo apt install ruby
-sudo gem install fusuma
+gem install fusuma
 ```
 
 * Config
