@@ -55,6 +55,12 @@ or
 
 Preferences > Profiles > (Default) > Command > Run command as a login shell
 
+#### Workpace Grid (Gnome3 Extension)
+
+```sh
+Ubuntu Softwares > Workspace Grid 
+```
+
 
 ### Appearance
 
