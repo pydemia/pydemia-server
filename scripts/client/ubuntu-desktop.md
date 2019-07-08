@@ -206,3 +206,72 @@ gedit ~/.wine/user.reg
 -"riched20"="native,builtin"
 -"usp10"="native,builtin"
 ```
+
+#### Multitouch
+
+```sh
+sudo gpasswd -a $USER input
+sudo apt install libinput-tools -y
+sudo apt install xdotool -y
+sudo apt install ruby
+sudo gem install fusuma
+```
+
+* Config
+```sh
+cd ~/.config
+mkdir fusuma  
+cd fusuma
+vim config.yml   
+```
+
+```yml
+swipe:
+  3: 
+    left: 
+      command: 'xdotool key alt+Right'
+    right: 
+      command: 'xdotool key alt+Left'
+    up: 
+      command: 'xdotool key super'
+    down: 
+      command: 'xdotool key super'
+  4:
+    left: 
+      command: 'xdotool key ctrl+alt+Down'
+    right: 
+      command: 'xdotool key ctrl+alt+Up'
+    up: 
+      command: 'xdotool key ctrl+alt+Down'
+    down: 
+      command: 'xdotool key ctrl+alt+Up'
+pinch:
+  in:
+    command: 'xdotool key ctrl+plus'
+  out:
+     command: 'xdotool key ctrl+minus'
+
+threshold:
+  swipe: 0.4
+  pinch: 0.4
+
+interval:
+  swipe: 0.8
+  pinch: 0.1
+```
+
+| Mult-touch Gesture | Action |
+| :--: | :--- |
+| 3 Fingers - Left | Go Next on Browser |
+| 3 Fingers - Right | Go Back on Browser |
+| 3 Fingers - Up | Show all Windows|
+| 3 Fingers - Down | Close Exposé (Esc) |
+| 4 Fingers - Left | Next Desktop |
+| 4 Fingers - Right | Previous Desktop|
+| 4 Fingers - Up | Next Desktop|
+| 4 Fingers - Down | Previous Desktop|
+
+
+```sh
+sudo fusuma
+```
