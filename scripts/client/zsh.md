@@ -38,6 +38,8 @@ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 ```
 
 
+[`.zshrc`](.zshrc)
+
 ```sh
  sudo apt-get install dconf-cli uuid-runtime
  
