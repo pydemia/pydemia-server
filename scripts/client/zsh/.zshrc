@@ -1,4 +1,6 @@
 ZSH_THEME="cobalt2-pydemia"
+export TERM=xterm-256color
+export LANG=en_US.UTF-8
 
 # enable color support of ls and also add handy aliases
 if [ -x $(which dircolors) ]; then
