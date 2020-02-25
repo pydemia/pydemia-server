@@ -12,8 +12,8 @@
         "initialRows" : 30,
         "keybindings" : 
         [
-        { "command": "closePane", "keys": [ "ctrl+w" ] },
-        { "command" : "closeTab", "keys" : [ "ctrl+shift+w" ] },
+        { "command": "closePane", "keys": [ "alt+w" ] },
+        { "command" : "closeTab", "keys" : [ "ctrl+w" ] },
         { "command": "closeWindow", "keys": [ "alt+f4" ] },
         { "command": { "action": "splitPane", "split": "horizontal"}, "keys": [ "alt+shift+d" ] },
         { "command": { "action": "splitPane", "split": "vertical"}, "keys": [ "alt+d" ] },
