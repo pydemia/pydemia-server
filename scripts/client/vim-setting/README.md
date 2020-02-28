@@ -21,7 +21,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ```sh
 sudo apt-get install ctags
-wget 
+wget https://raw.githubusercontent.com/pydemia/pydemia-server/master/scripts/client/vim-setting/.vimrc ~/
 ```
 
 [`.vimrc`](.vimrc)
