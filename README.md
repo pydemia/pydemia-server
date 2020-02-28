@@ -8,7 +8,7 @@ Table of Contents
 
 	-	[Terminal](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/terminal.md)
 	-	zsh
-	-	[vim](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/vim.md)
+	-	[vim](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/vim-setting/README.md)
 	-	syntax
 	-	[Atom](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/atom/readme.md)
 	-	package list
