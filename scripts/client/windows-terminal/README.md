@@ -7,6 +7,16 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 ```
 
+```sh
+vim /etc/wsl.conf
+
+# Now make it look like this and save the file when you're done: 
+[automount]
+root = /
+options = "metadata"
+
+```
+
 
 Shared Environment variables
 
