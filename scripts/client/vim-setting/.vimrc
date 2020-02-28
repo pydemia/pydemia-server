@@ -2,6 +2,7 @@
 if has("syntax")
     syntax on
 endif
+:colorscheme cobalt2
 
 " One tab to 4 spaces
 set softtabstop=4
