@@ -56,3 +56,27 @@ Instance 	#ff80e1
 
 
 ```
+
+## Terminal
+
+{
+  "background" : "#072539", # rgb(7,37,57)
+  "black" : "#041622", # rgb(4,22,34)
+  "blue" : "#268bd2", # rgb(38,139,210)
+  "brightBlack" : "#041622", # rgb(4,22,34)
+  "brightBlue" : "#62ade3", # rgb(98,173,227)
+  "brightCyan" : "#94d8e5", # rgb(148,216,229)
+  "brightGreen" : "#b7eb46", # rgb(183,235,70)
+  "brightPurple" : "#bfa0fe", # rgb(191,160,254)
+  "brightRed" : "#ff5995", # rgb(255,89,149)
+  "brightWhite" : "#f8f8f2", # rgb(248,248,242)
+  "brightYellow" : "#feed6c", # rgb(254,237,108)
+  "cyan" : "#56c2d6", # rgb(86,194,214)
+  "foreground" : "#CCCCCC", # rgb(204,204,204)
+  "green" : "#82b414", # rgb(130,180,20)
+  "name" : "Campbell",
+  "purple" : "#8c54fe", # rgb(140,84,254)
+  "red" : "#f92672", # rgb(249,38,114)
+  "white" : "#ccccc6", # rgb(204,204,198)
+  "yellow" : "#fd971f" # rgb(253,151,31)
+}
