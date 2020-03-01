@@ -108,7 +108,7 @@
             "useAcrylic" : true
         },
         {
-            "acrylicOpacity" : 0.75,
+            "acrylicOpacity" : 0.9,
             "closeOnExit" : true,
             "colorScheme" : "Cobalt2-pydemia",
             "commandline" : "wsl.exe -d Ubuntu-18.04",
@@ -122,7 +122,7 @@
             "name" : "Ubuntu-18.04",
             "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
-            "useAcrylic" : false
+            "useAcrylic" : true
         },
         {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
