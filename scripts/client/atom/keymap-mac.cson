@@ -40,7 +40,7 @@
   # Run Code Interactive
   'ctrl-f5': 'hydrogen:run-and-move-down'
   # Connect to Remote Kernel
-  'alt-esc': 'hydrogen:connect-to-remote-kernel'
+  'ctrl+shift-`': 'hydrogen:connect-to-remote-kernel'
 
 # Initiate Jupyter Terminal in Atom
 '.platform-darwin atom-text-editor':
