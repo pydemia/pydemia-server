@@ -7,7 +7,7 @@
     "globals" : 
     {
         "alwaysShowTabs" : true,
-        "defaultProfile" : "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+        "defaultProfile" : "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "initialCols" : 120,
         "initialRows" : 30,
         "keybindings" : 
@@ -134,7 +134,17 @@
             "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
             "hidden": false,
             "name": "Ubuntu",
-            "source": "Windows.Terminal.Wsl"
+            "source": "Windows.Terminal.Wsl",
+            "acrylicOpacity": 0.9,
+            "closeOnExit": true,
+            "colorScheme": "Cobalt2-pydemia",
+            "cursorColor": "#FFFFFF",
+            "cursorShape": "bar",
+            "historySize": 9001,
+            "fontFace": "Source Code Pro for Powerline",
+            "fontSize": 10,
+            "snapOnInput": true,
+            "useAcrylic": true
         }
     ],
     "schemes" : 
