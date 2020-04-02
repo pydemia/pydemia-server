@@ -57,6 +57,7 @@ Table of Contents
 	-	Firewall
 	-	Java
 	-	[Jupyter](https://github.com/pydemia/Jupyter/blob/master/README.md)
+	-	[Dask & Dask Distributed](https://github.com/pydemia/Jupyter/blob/master/README.md)
 	-	shellinabox
 	-	Monitoring : [`glances`](scripts/server/glances.md)
 
