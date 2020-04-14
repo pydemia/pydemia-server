@@ -138,8 +138,10 @@ Your extension will live at https://marketplace.visualstudio.com/items?itemName=
 
 `settings.json`
 
+#### Case: from local to remote-docker-host
+
 ```json
-"docker.hub": "ssh://[username]@[ip_or_domain]:port
+"docker.host": "ssh://[username]@[ip_or_domain]:port"
 ```
 
 `ssh-agent` & `ssh-add [private_key]`
@@ -154,3 +156,12 @@ plugins = (
   ssh-agent
 )
 ```
+
+
+#### Case: from remote-ssh to its docker-host
+
+
+```json
+"docker.host": "unix:///var/run/docker.sock"
+```
+
