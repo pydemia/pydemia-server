@@ -21,7 +21,7 @@ Table of Contents
 	-	Remote Connection
 	-	edit
 	-	Remote `jupyter` kernel
-	-	[VS Code](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/vscode.md)
+	-	[VS Code](scripts/client/vscode/readme.md)
 	-	package list
 	-	Customization
 	-	Dev. Env.
