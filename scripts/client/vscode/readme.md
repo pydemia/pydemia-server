@@ -134,7 +134,7 @@ Your extension will live at https://marketplace.visualstudio.com/items?itemName=
 ```
 
 
-### Remote Docker
+### Remote Docker Host
 
 `settings.json`
 
