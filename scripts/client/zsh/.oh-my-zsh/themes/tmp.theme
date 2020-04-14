@@ -47,8 +47,7 @@ esac
   # Powerline-patched fonts installed. Download and install the new version.
   # Do not submit PRs to change this unless you have reviewed the Powerline code point
   # history and have new information.
-  # This is defined using a Unicode escape sequence so it is unambiguously readable, regardl
-ess of
+  # This is defined using a Unicode escape sequence so it is unambiguously readable, regardless of
   # what font the user is viewing this source code in. Do not replace the
   # escape sequence with a single literal character.
   # Do not change this! Do not make it '\u2b80'; that is the old, wrong code point.
@@ -109,8 +108,7 @@ prompt_git() {
   if $(git rev-parse --is-inside-work-tree >/dev/null 2>&1); then
     repo_path=$(git rev-parse --git-dir 2>/dev/null)
     dirty=$(parse_git_dirty)
-    ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git rev-parse --short HEAD 2> /dev
-/null)"
+    ref=$(git symbolic-ref HEAD 2> /dev/null) || ref="➦ $(git rev-parse --short HEAD 2> /dev/null)"
     if [[ -n $dirty ]]; then
       prompt_segment yellow black
     else
@@ -121,8 +119,7 @@ prompt_git() {
       mode=" <B>"
     elif [[ -e "${repo_path}/MERGE_HEAD" ]]; then
       mode=" >M<"
-    elif [[ -e "${repo_path}/rebase" || -e "${repo_path}/rebase-apply" || -e "${repo_path}/r
-ebase-merge" || -e "${repo_path}/../.dotest" ]]; then
+    elif [[ -e "${repo_path}/rebase" || -e "${repo_path}/rebase-apply" || -e "${repo_path}/rebase-merge" || -e "${repo_path}/../.dotest" ]]; then
       mode=" >R>"
     fi
 
@@ -266,7 +263,7 @@ build_prompt() {
   prompt_end
 }
 
-# PROMPT='┌───%{%f%b%k%}$(build_prompt)
+# PROMPT='┌───%{%f%b%k%}$(build_prompt) 
 # └─$(prompt_end)'
 
 PROMPT='%{%f%b%k%}$(build_prompt) '
