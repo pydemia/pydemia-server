@@ -144,7 +144,7 @@ Your extension will live at https://marketplace.visualstudio.com/items?itemName=
 
 `ssh-agent` & `ssh-add [private_key]`
 
-* `zsh`
+* `zsh` (with .ohmyzsh)
 
 `~/.zshrc`
 
