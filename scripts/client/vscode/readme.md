@@ -128,5 +128,29 @@ Your extension will live at https://marketplace.visualstudio.com/items?itemName=
 .vscode-remote/data/Machine/settings.json
 ```
 
+```json
 "terminal.integrated.shell.linux": "/usr/bin/zsh",
 "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+```
+
+
+### Remote Docker
+
+`settings.json`
+
+```json
+"docker.hub": "ssh://[username]@[ip_or_domain]:port
+```
+
+`ssh-agent` & `ssh-add [private_key]`
+
+* `zsh`
+
+`~/.zshrc`
+
+```sh
+plugins = (
+  ...
+  ssh-agent
+)
+```
