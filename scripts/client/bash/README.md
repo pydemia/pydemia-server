@@ -1,1 +1,1 @@
-# Bash settings
+# `bash` settings
