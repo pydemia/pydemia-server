@@ -18,7 +18,7 @@ options = "metadata"
 ```
 
 
-Shared Environment variables
+## Shared Environment variables
 
 ```sh
 export USERHOME="/mnt/c/Users/pydemia"
@@ -31,3 +31,6 @@ export PYTHONPATH="$APPS/anaconda3/bin/python3"
 export WSLENV=$WSLENV:PYTHONPATH/p:PATH/l
 ```
 
+## Profile Settings
+
+<https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md>
