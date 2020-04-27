@@ -2,8 +2,8 @@
 
 ## Installation
 
-* [`cuda`](installation/cuda.md)
-* [`cudNN`](installation/cuda.md)
+* [`cuda`](install/cuda.md)
+* [`cudNN`](install/cuda.md)
 
 
 ## Updates
