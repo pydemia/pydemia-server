@@ -2,13 +2,13 @@
 
 ## Installation
 
-* [`cuda`](scripts/installation/cuda.md)
-* [`cudNN`](scripts/installation/cuda.md)
+* [`cuda`](installation/cuda.md)
+* [`cudNN`](installation/cuda.md)
 
 
 ## Updates
 
-* [`cuda` 8 to 9](scripts/updates/cuda.md)
+* [`cuda` 8 to 9](updates/cuda.md)
 
 ## DL Frameworks
 
