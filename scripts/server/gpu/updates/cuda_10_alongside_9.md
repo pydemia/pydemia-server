@@ -92,7 +92,7 @@ export LD_LIBRARY_PATH="${LD_LIBRARY_PATH:+${LD_LIBRARY_PATH}:}${CUDA_HOME}/extr
 Activate it:
 
 ```sh
-source ~/misc/cuda10.0.env
+pydemia@pydemia-server🔗 ❯ source ~/misc/cuda10.0.env
 
 pydemia@pydemia-server🔗 ❯ env | grep -i cuda
 PATH=/usr/local/cuda-10.0/bin:/home/pydemia/apps/anaconda3/bin/jupyter-kernelspec:/home/pydemia/apps/scala/bin:/home/pydemia/apps/julia/bin:/home/pydemia/apps/pypy3/bin:/usr/local/cud
