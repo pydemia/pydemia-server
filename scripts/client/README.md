@@ -31,10 +31,12 @@ Executes A, then B, then C, etc. The B1, B2, B3 means it executes only the first
 +----------------+-----------+-----------+------+
 ```
 
-![bash rcfile flowchart](BashStartupFiles1.png)
-*From http://www.solipsys.co.uk/new/BashInitialisationFiles.html
+| ![bash rcfile flowchart](BashStartupFiles1.png) | 
+|:--:| 
+| *From http://www.solipsys.co.uk/new/BashInitialisationFiles.html |
 
-## zsh
+
+# zsh
 
 For zsh: [Note that zsh seems to read ~/.profile as well, if ~/.zshrc is not present.]
 
