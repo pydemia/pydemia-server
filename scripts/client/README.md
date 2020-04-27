@@ -4,6 +4,7 @@
 
 Executes A, then B, then C, etc. The B1, B2, B3 means it executes only the first of those files found.
 
+```txt
 +----------------+-----------+-----------+------+
 |                |Interactive|Interactive|Script|
 |                |login      |non-login  |      |
@@ -28,15 +29,16 @@ Executes A, then B, then C, etc. The B1, B2, B3 means it executes only the first
 +----------------+-----------+-----------+------+
 |~/.bash_logout  |    C      |           |      |
 +----------------+-----------+-----------+------+
+```
 
-
-![bash rcfile flowchart](scripts/client/BashStartupFiles1.png)
+![bash rcfile flowchart](BashStartupFiles1.png)
 *From http://www.solipsys.co.uk/new/BashInitialisationFiles.html
 
 ## zsh
 
 For zsh: [Note that zsh seems to read ~/.profile as well, if ~/.zshrc is not present.]
 
+```txt
 +----------------+-----------+-----------+------+
 |                |Interactive|Interactive|Script|
 |                |login      |non-login  |      |
@@ -65,6 +67,8 @@ For zsh: [Note that zsh seems to read ~/.profile as well, if ~/.zshrc is not pre
 +----------------+-----------+-----------+------+
 |/etc/zlogout    |    J      |           |      |
 +----------------+-----------+-----------+------+
+```
+
 Moral:
   For bash, put stuff in ~/.bashrc, and make ~/.bash_profile source it.
   For zsh, put stuff in ~/.zshrc, which is always executed.
