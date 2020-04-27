@@ -47,7 +47,7 @@ Table of Contents
 	-	[Jupyter](https://github.com/pydemia/Jupyter/blob/master/README.md)
 	-	shellinabox
 	-	Monitoring : [`glances`](scripts/server/glances.md)
-	-       [GPU](/scripts/server/gpu/README.md)
+	-       [GPU](scripts/server/gpu/README.md)
 		- `cuda`
 		- `nvidia-docker`(Docker Runtime:nvidia)
 
