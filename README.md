@@ -48,8 +48,6 @@ Table of Contents
 	-	shellinabox
 	-	Monitoring : [`glances`](scripts/server/glances.md)
 	-	[GPU](scripts/server/gpu/README.md)
-	
-	-       [GPU](scripts/server/gpu/README.md)
 		- `cuda`
 		- `nvidia-docker`(Docker Runtime:nvidia)
 
