@@ -2,7 +2,10 @@
 
 ## Enabling HTTPS on Your Servers
 
-Ref: [https://developers.google.com/web/fundamentals/security](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
+Ref: 
+* [https://developers.google.com/web/fundamentals/security](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
+* [Let's Encrypt](https://letsencrypt.org/getting-started/)
+* [CertBot](https://certbot.eff.org/)
 
 ## Generating keys and certificate signing requests
 
@@ -120,3 +123,31 @@ If you don't already have HTTPS service available on your servers, enable it now
 Now, and throughout your site's lifetime, check your HTTPS configuration with [Qualys' handy SSL Server Test](https://www.ssllabs.com/ssltest/). Your site should score an A or A+; treat anything that causes a lower grade as a bug. (Today's A is tomorrow's B, because attacks against algorithms and protocols are always improving!)
 
 If you have many hostnames/subdomains, they each need to use the right certificate.
+
+
+## CertBot
+
+On server:
+```bash
+sudo apt-get update
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository -y universe
+sudo add-apt-repository -y ppa:certbot/certbot
+sudo apt-get update
+
+sudo apt-get install -y certbot
+```
+
+If the webserver is not currently running:
+```sh
+sudo certbot certonly --standalone
+```
+else, If you need to keep my web server running:
+```sh
+sudo certbot certonly --webroot
+```
+
+Test automatic renewal:
+```sh
+sudo certbot renew --dry-run
+```
