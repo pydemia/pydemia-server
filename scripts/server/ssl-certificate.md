@@ -2,7 +2,7 @@
 
 ## Enabling HTTPS on Your Servers
 
-[Ref: https://developers.google.com](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
+Ref: [https://developers.google.com/web/fundamentals/security](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https)
 
 ## Generating keys and certificate signing requests
 
