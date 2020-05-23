@@ -165,3 +165,17 @@ plugins = (
 "docker.host": "unix:///var/run/docker.sock"
 ```
 
+
+### Error
+
+:warning:
+```sh
+Error Python Extension: 2020-05-23 12:07:26: Exception while attempting zmq : [Error: /usr/lib/x86_64-linux-gnu/libstdc++.so.6: version `GLIBCXX_3.4.22' not found (required by /home/pydemia/.vscode-server-insiders/extensions/ms-python.python-2020.5.80290/out/client/node_modules/zeromq/prebuilds/linux-x64/node.napi.glibc.node)
+```
+
+```sh
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-4.9
+sudo apt-get upgrade libstdc++6
+```
