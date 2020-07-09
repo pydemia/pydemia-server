@@ -12,6 +12,8 @@ Table of Contents
 	-	syntax
 	-	[Atom](https://github.com/pydemia/pydemia-server/blob/master/scripts/client/atom/readme.md)
 	-	package list
+	-       Homebrew(Mac) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+`
 	-	Customization
 	-	Dev. Env.
 	-	Python
