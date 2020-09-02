@@ -56,5 +56,21 @@ authenticate 'focal.tar.gz' against 'focal.tar.gz.gpg'
 extracting 'focal.tar.gz'
 
 Reading cache
+
+
+Checking package manager
+
+Continue running under SSH?
+
+This session appears to be running under ssh. It is not recommended
+to perform a upgrade over ssh currently because in case of failure it
+is harder to recover.
+
+If you continue, an additional ssh daemon will be started at port
+'1022'.
+Do you want to continue?
+
+Continue [yN] y
+
 ...
 ```
