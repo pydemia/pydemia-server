@@ -1,5 +1,11 @@
 # Troubleshooting
 
+### install `nvidia-smi`
+
+```sh
+sudo apt install nvidia-driver-440
+```
+
 ## `nvidia-smi` not working: `gcc>5`
 
 ```bash
