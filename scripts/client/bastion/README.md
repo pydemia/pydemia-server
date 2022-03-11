@@ -5,8 +5,8 @@
 ```bash
 ssh -i <bastion-ssh-key> \
   -N \
-  -L <localhost-port>:<private-network-target-ip-or-domain>:<private-network-target-port> \
-  yj.kim1@13.124.2.235
+  -L <localhost-port>:<private-network-target-internal-ip-or-domain>:<private-network-target-port> \
+  <bastion-username>@<bastion-external-ip>
 
 ```
 
@@ -17,8 +17,8 @@ Host <alias>
     User <bastion-username>
     IdentitiesOnly yes
     IdentityFile <bastion-ssh-key>
-    # LocalForward <localhost-port> <private-network-target-ip-or-domain>:<private-network-target-port>
-    LocalForward 9200 vpc-xxx-asldfjalsejalshb;albhalsdf.ap-northeast-2.es.amazonaws.com:443
+    # LocalForward <localhost-port> <private-network-target-internal-ip-or-domain>:<private-network-target-port>
+    LocalForward 9999 vpc-xxx-asldfjalsejalshbalbhalsdf.ap-northeast-2.es.amazonaws.com:443
 
 ssh <alias> -N
 
