@@ -13,7 +13,7 @@ ssh -i <bastion-ssh-key> \
 ```
 
 ```bash
-Host aiip-prd-tunnel-19090
+Host <alias+localhost-port(convention)>
     HostName <bastion-external-ip>
     User <bastion-username>
     IdentitiesOnly yes
