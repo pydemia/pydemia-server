@@ -2,6 +2,28 @@
 
 ## Bastion SSH Tunneling
 
+### bastion itself
+
+```bash
+ssh -i <bastion-ssh-key> \
+  -N \
+  -L <localhost-port>:localhost:<private-network-target-port> \
+  <bastion-username>@<bastion-external-ip>
+
+```
+
+```bash
+Host aiip-prd-tunnel-19090
+    HostName <bastion-external-ip>
+    User <bastion-username>
+    IdentitiesOnly yes
+    IdentityFile <bastion-ssh-key>
+    LocalForward <localhost-port> localhost:<private-network-target-port>
+
+```
+
+### other ips
+
 ```bash
 ssh -i <bastion-ssh-key> \
   -N \
@@ -11,7 +33,7 @@ ssh -i <bastion-ssh-key> \
 ```
 
 ```config
-# Elasticsearch Tunnel
+# SSH Tunnel
 Host <alias>
     HostName <bastion-external-ip>
     User <bastion-username>
@@ -23,3 +45,4 @@ Host <alias>
 ssh <alias> -N
 
 ```
+
